@@ -12,6 +12,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #E3F2FD;
+  color: #171B26;
 }
 .wrapper {
   width: 65vmin;
