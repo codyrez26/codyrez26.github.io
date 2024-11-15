@@ -2,7 +2,11 @@
 body, h1, h2, h3, p, ul, li, a, button, input, textarea {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+}
+@font-face {
+    font-family: Pacifico-Regular, serif;
+    src: url(../Fonts/Pacifico-Regular);
 }
 
 body {
@@ -15,10 +19,13 @@ body {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(to right, #007991, #78ffd6), url(../Images/code.jpeg) ;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
     background-blend-mode: color;
+    font-family:"pacifico";
+    text-shadow: 3px 3px #060607;
+
     
 }
 /* Navigation bar */
@@ -42,6 +49,7 @@ body {
 
 .nav-links li {
     margin: 0 10px;
+    font-weight: 900;
 }
 /* social media icons */
 .social {
@@ -50,10 +58,11 @@ body {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #f1f1f1;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
+    text-shadow: #060607;
 }
 
 .nav-links a:hover {
