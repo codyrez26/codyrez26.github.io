@@ -3,8 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script defer src="JS/home.js"></script>
 </head>
 <body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">Cody Rzentkowski</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="resume/game.html">Resume</a></li>
+                <li><a href="Pages/game.html">Game</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my work, skills, and experience.</p>
+            <button type="button" class="cta-button" onclick="scrollToSection('projects')">View My Projects</button>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself, your passion, and what you do. Personalize this section to highlight your unique story and strengths.</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project. Include your role, technologies used, and what you learned.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project. Include your role, technologies used, and what you learned.</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cody Rzentkowski. All rights reserved.</p>
+        <div>
+            <a href="https://www.facebook.com/codyrez" target="_blank">
+            <img src="Images/icons/facebook.png" class="social" alt="facebook"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="Images/icons/github.png" class="social" alt="github"></a>
+            <a href="https://github.com/codyrez26" target="_blank">
+            <img src="Images/icons/linkedin.png" class="social" alt="linkedin"></a>
+        </div>
+    </footer>
 </body>
 </html>
