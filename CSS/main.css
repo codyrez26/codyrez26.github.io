@@ -115,20 +115,20 @@ body {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     gap: 20px;
 }
 
 .project-card {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
 .contact-section {
-    padding: 50px 20px;
+    padding: 50px 50px;
     background-color: #fff;
     text-align: center;
 }

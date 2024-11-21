@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/game.css">
+
+
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">Cody Rzentkowski</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Snake</h3>
+                <p>This is my simple version of a popular game.</p>
+                <div class="wrapper">
+                    <div class="game-details">
+                      <span class="score">Score: 0</span>
+                      <span class="high-score">High Score: 0</span>
+                    </div>
+                    <div class="play-board"></div>
+                    <div class="controls">
+                      <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                      <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                      <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                      <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+                    </div>
+                  </div>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project. Include your role, technologies used, and what you learned.</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cody Rzentkowski. All rights reserved.</p>
+        <div>
+            <a href="https://www.facebook.com/codyrez" target="_blank">
+            <img src="../Images/icons/facebook.png" class="social" alt="facebook"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="../Images/icons/linkedin.png" class="social" alt="github"></a>
+            <a href="https://github.com/codyrez26" target="_blank">
+            <img src="../Images/icons/github.png" class="social" alt="linkedin"></a>
+        </div>
+    </footer>
+    <script defer src="../JS/home.js"></script>
+    <script defer src="../JS/game.js"></script>
+</body>
+</html>

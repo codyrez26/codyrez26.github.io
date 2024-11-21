@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   background: #E3F2FD;
   color: #171B26;
+  padding: 200px;
 }
 .nav-links-game a {
   color: #060404;
@@ -71,12 +72,14 @@ footer {
 }
 
 header{
-  position: fixed;
+  position:fixed;
   top: 0px;
   left: 0px;
   right: 0px;
+  height: 100px;
   background: linear-gradient(to right, #007991, #78ffd6);
   color: #060607;
+  padding: 50px;
 }
 .play-board .food {
   background: #FF003D;
