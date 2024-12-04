@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/game.css">
 
 
@@ -22,23 +21,19 @@
             </ul>
         </nav>
     </header>
-
-    <section id="projects" class="projects-section">
-        <h2>My Projects</h2>
-        <div class="projects-container">
-            <a href="../Pages/snake.html" class="project-link">
-            <div class="project-card">
-                <h3>Snake</h3>
-                <p>This is a fun little Java script game I put together.  It is a simple version of the classic, Snake.</p>
-            </div>
-        </a>
-            <div class="project-card">
-                <h3>Project Title 2</h3>
-                <p>Brief description of the project. Include your role, technologies used, and what you learned.</p>
-            </div>
-            <!-- Add more project cards as needed -->
-        </div>
-    </section>
+                <div class="wrapper">
+                    <div class="game-details">
+                      <span class="score">Score: 0</span>
+                      <span class="high-score">High Score: 0</span>
+                    </div>
+                    <div class="play-board"></div>
+                    <div class="controls">
+                      <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                      <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                      <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                      <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+                    </div>
+                  </div>
     <footer>
         <p>&copy; 2024 Cody Rzentkowski. All rights reserved.</p>
         <div>
