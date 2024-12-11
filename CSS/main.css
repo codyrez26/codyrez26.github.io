@@ -170,9 +170,8 @@ header{
 
 /* Footer */
 footer {
-    position:fixed;
+    position:absolute;
     right: 0px;
-    bottom: 0px;
     left: 0px;
     padding: 20px;
     background: linear-gradient(to right, #007991, #78ffd6);

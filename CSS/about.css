@@ -1,0 +1,71 @@
+/* General Styling */
+.about-me {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Card Container */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Individual Cards */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    max-width: 300px;
+  }
+  
+  /* Card Interactivity */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Card Content */
+  .card h3 {
+    font-size: 20px;
+    margin: 15px;
+    color: #007BFF;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin: 0 15px 15px 15px;
+    color: #555;
+  }
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+  }
+  .card-image:hover {
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+  }  

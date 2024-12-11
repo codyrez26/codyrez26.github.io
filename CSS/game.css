@@ -276,6 +276,7 @@ body {
 
 /* Footer */
 footer {
+  position: absolute;
   padding: 20px;
   background: linear-gradient(to right, #007991, #78ffd6);
   color: #060607;

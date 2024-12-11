@@ -10,6 +10,19 @@ body {
   h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
   }
+  footer {
+    position:absolute;
+    right: 0px;
+    left: 0px;
+    padding: 20px;
+    background: linear-gradient(to right, #007991, #78ffd6);
+    color: #060607;
+    text-align: center;
+}
+.social {
+  max-width: 30px;
+  min-width: 30px;
+}
   
   a {
     text-decoration: none;
@@ -24,9 +37,9 @@ body {
   /* Header Section */
   .header {
     text-align: center;
-    background-color: #4a90e2;
+    background: linear-gradient(to right, #007991, #78ffd6), url(../Images/code.jpeg) ;
     padding: 50px 0;
-    color: white;
+    color: rgb(4, 0, 0);
   }
   
   .header h1 {
@@ -196,5 +209,80 @@ body {
     .experience p, .education p {
       font-size: 1rem;
     }
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    background: linear-gradient(to right, #007991, #78ffd6), url(../Images/code.jpeg) ;
+    color: #f9f4f4;
+    text-align: center;
+    text-shadow: 3px 3px #060607;
+    padding: 80px 20px;
+    background-blend-mode: color;
+    font-family:"pacifico";
+    font-size: 25px;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #020101;
+    object-fit: cover;
+    position: relative;
+    top: -20px; /* Lift the headshot above */
+    z-index: 1; /* Ensure it sits above other elements */
+  }
+  
+  .contact-section {
+    text-align: right;
+  }
+  
+  .contact-section a {
+    color: #f0f3f7;
+    text-shadow: 3px 3px #060607;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: bolder;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .bottom-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f1f1;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid #020202;
+    border-bottom: 4px solid #020202;
+    color: #f4f7f6;
+    text-shadow: 3px 3px #efeff0;
+    
+  }
+  
+  .bottom-nav a {
+    margin: 0 15px;
+    color: #060101;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .bottom-nav a:hover {
+    color: #020508;
   }
   
